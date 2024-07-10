@@ -1,11 +1,18 @@
 import React from "react";
-import Layout from "../../Components/Layout/Layout";
 import Hero from "../../Components/Hero/Hero";
+import Service from "../../Components/Service/Service";
+import Gallery from "../../Components/Gallery/Gallery";
+import PopularProducts from "../../Components/PopularProducts/PopularProducts";
+import Testmonial from "../../Components/Testmonial/Testmonial";
 
-export const Home = () => {
+export const Home = ({AddToCart}) => {
   return (
-  <Layout>
+  <>
     <Hero/>
-  </Layout>
+    <Service/>
+    <PopularProducts AddToCart={AddToCart}/>
+    <Gallery/>
+    <Testmonial/>
+  </>
   )
 };

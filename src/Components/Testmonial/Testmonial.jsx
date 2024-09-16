@@ -33,7 +33,7 @@ const Testmonial = () => {
                 spaceBetween: 50,
             }
           }}
-
+// Correct the code...
         >
           <SwiperSlide>
             <div className="p-4 w-full">

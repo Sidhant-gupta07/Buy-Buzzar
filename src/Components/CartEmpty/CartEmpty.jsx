@@ -5,7 +5,7 @@ const CartEmpty = () => {
     <>
     <div className='w-[80%] h-[70vh] mt-[80px]
     container mx-auto px-4 py-4 shadow-lg rounded-md mb-7 
-    flex justify-center items-center'> 
+    flex justify-center items-center bg-white'> 
     <div className='flex items-center flex-col'>
         <img 
         src="https://rukminim2.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90" 

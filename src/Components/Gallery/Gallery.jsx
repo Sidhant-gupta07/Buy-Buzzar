@@ -11,10 +11,10 @@ const Gallery = () => {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-20 mx-auto flex flex-wrap">
           <div className="flex w-full mb-20 flex-wrap">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-500 lg:w-1/3 lg:mb-0 mb-4">
               Deal's with Customer Priority
             </h1>
-            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+            <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base font-semibold">
             The Buy Buzzar Group is one of India's leading digital e-commerce 
             entities and includes group companies Buy Buzzar, 
             Myntra, Buy Buzzar Wholesale, Buy Buzzar Health + and 
